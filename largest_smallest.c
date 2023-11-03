@@ -2,13 +2,6 @@
 #include <stdio.h>
 
 
-int max(int a, int b) {
-  return (a > b) ? a : b;
-}
-
-int min(int a, int b) {
-  return (a < b) ? a : b;
-}
 
 int largestnormal(int arr[],int n){
 	int largest = arr[0];
@@ -30,7 +23,18 @@ int smallestnormal(int arr[],int n){
 	return smallest;
 }
 
+
+int max(int a, int b) {
+  return (a > b) ? a : b;
+}
+
+int min(int a, int b) {
+  return (a < b) ? a : b;
+}
+
+
 //using divide and conqure method
+
 
 
 
