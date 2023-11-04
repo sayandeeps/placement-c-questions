@@ -33,7 +33,7 @@ int min(int a, int b) {
 }
 
 
-//using divide and conqure method
+//using divide and conqure method and recusrion
 
 
 
